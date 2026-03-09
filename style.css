@@ -1,3 +1,43 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+}
+.header{
+  flex:20%;
+  aspect-ratio: 6/1;
+  background-color: Brown;
+  background: url("images/money.jpg") center;
+}
+.menu{
+  flex:5%;
+  background-color: Tortilla;
+  display: flex;
+  align-items: center;
+  color: black
+}
+.menu a{
+  padding: 15px 20px;
+  color: Cedar;
+}
+.menu a:hover{
+  background-color: Caramel;
+  color: white;
+}
+.content{
+  flex:70%;
+  background-color: Russet;
+}
+.content iframe{
+  flex:1;
+  border: none;
+  width: 100%;
+  height:100%;
+}
+.footer{
+  flex:5%;
+  background-color: Brown;
+}
 h1 {
   color: Chocolate;
   top-margin: 25pt;
