@@ -11,14 +11,14 @@
 }
 .menu{
   flex:5%;
-  background-color: White;
+  background-color: Yellow;
   display: flex;
   align-items: center;
   color: black
 }
 .menu a{
   padding: 15px 20px;
-  color: Cedar;
+  color: Green;
 }
 .menu a:hover{
   background-color: Black;
@@ -26,7 +26,7 @@
 }
 .content{
   flex:70%;
-  background-color: Yellow;
+  background-color: White;
 }
 .content iframe{
   flex:1;
