@@ -11,7 +11,7 @@
 }
 .menu{
   flex:5%;
-  background-color: Tortilla;
+  background-color: Yellow;
   display: flex;
   align-items: center;
   color: black
@@ -21,12 +21,12 @@
   color: Cedar;
 }
 .menu a:hover{
-  background-color: Caramel;
+  background-color: Black;
   color: white;
 }
 .content{
   flex:70%;
-  background-color: Russet;
+  background-color: Yellow;
 }
 .content iframe{
   flex:1;
@@ -39,11 +39,11 @@
   background-color: Brown;
 }
 h1 {
-  color: Chocolate;
+  color: Red;
   top-margin: 25pt;
 }
 .tuade {
-  color: Wood;
+  color: Yellow;
   font-family: Arial;
   top-margin: 20pt;
   font-size: 20pt;
